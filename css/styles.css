@@ -1,0 +1,83 @@
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+img {
+	max-width: 100%;
+	width: 100%;
+}
+
+/** layout **/
+section {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+/** STRUCTURE **/
+.card {
+	display: flex;
+	gap: 3rem;
+	align-items: center;
+	margin: 3rem 2%;
+	border-radius: 0.5rem;
+	border: 0.1rem solid orangered;
+}
+
+.card-img {
+	/* width: 35%; */
+	flex: 0 0 35%;
+	max-width: 35%;
+}
+
+.card-body {
+	padding: 1.5rem;
+}
+
+h4 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+p {
+	margin-bottom: 1.5rem;
+}
+
+.btn {
+	border-radius: 0.5rem;
+	border: 0.1rem solid #000;
+	padding: 1rem 2rem;
+	margin: 1.5rem 0;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all 0.3s ease-in-out;
+}
+
+/** STYLE **/
+.btn-green {
+	background-color: lightgreen;
+	color: #111;
+}
+.btn-green:hover {
+	background-color: darkgreen;
+	color: #fff;
+}
+
+.btn-purple {
+	background-color: rgb(95,23,63);
+	color: #fff;
+}
+
+.btn-purple:hover {
+	background-color: rgb(63, 15, 42);
+}
